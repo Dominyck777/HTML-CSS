@@ -1,0 +1,71 @@
+
+colocar emojis: &#x;
+
+ordem:
+
+	shorthands font: 
+
+	font-style > font-weight > font-size > font-family
+
+
+	shorthands border: 
+
+	border-width: 10px;
+        border-style: solid;
+        border-color: darkgray;
+
+	shorthands padding:
+
+	padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+	shorthands margin:
+
+	margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+
+	shorthands outline:
+
+	outline-width: 5px;
+        outline-style: dashed;
+        outline-color: salmon;
+
+	shorthands shadows:
+
+	desloc-horinzontal
+	desloc-vertical
+	espalhamento
+	cor
+	(1px 1px 1px black)
+
+Tipos de format():
+
+    	-opentype(otf)
+    	-truetype(ttf)
+   	-embedded-opentype
+    	-truetype-aat (Apple Advanced Typography)
+    	-svg
+
+Tipos de seletores personalizados:
+
+	Em HTML é id = em CSS é #
+	Em HTML é class = em CSS é .
+	: = pseudoclass
+	:: = pseudoelements
+	>  = clildren(filho)
+
+tipos de "box":
+
+	box-level(display:block) : ela irá para a linha de baixo(level) e ocupara praticamente uma largura inteira e começa o proximo conteudo na linha de baixo(isolado/independente)!
+		
+	[Exemplos: <div> <h1-h6>]
+
+	inline-level(display:inline) : contrário do box-level, ele irá aparecer na mesma linha ocupando somente o tamanho que ele precisa e o proximo conteudo também irá continuar após ele, na mesma linha!
+
+	[Exemplos: <a> <spam>]
+
+	display: inline-box : fica na linha com algumas caracteristicas de um box-level(por exemplo podendo colocar altura e largura).
